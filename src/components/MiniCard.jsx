@@ -1,5 +1,7 @@
 
 import React, { useEffect, useState } from 'react'
+
+// check
 import sun from '../assets/icons/sun.png'
 import cloud from '../assets/icons/cloud.png'
 import fog from '../assets/icons/fog.png'
@@ -10,6 +12,8 @@ import wind from '../assets/icons/windy.png'
 
 const MiniCard = ({ time, temp, iconString }) => {
   const [icon, setIcon] = useState()
+
+
 
   useEffect(() => {
     if (iconString) {
